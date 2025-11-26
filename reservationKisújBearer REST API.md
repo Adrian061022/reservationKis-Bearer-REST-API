@@ -29,7 +29,7 @@ A `Content-Type` és az `Accept` headerkulcsok mindig `application/json` formát
 ---
 
 
-# 🔐 Autentikációs Végpontok
+# Autentikációs Végpontok
 
 ## POST /register
 
@@ -120,7 +120,7 @@ Authorization: Bearer 5|vrKwcP2klx42uC4svjk8gDVKIPa2a74AALzxVzzn538f7ea2
 
 ---
 
-# 📅 Foglalások (Reservations)
+# Foglalások (Reservations)
 
 Az alábbi végpontok **auth:sanctum** middleware védelemmel vannak ellátva, ezért Bearer Token szükséges.
 
@@ -698,9 +698,3 @@ class ReservationControllerTest extends TestCase
 
 `reservationKisujBearer>php artisan test`
 
-## Dokumentálás
-- word: végpontok
-- md: projektleírás/fejlesztői dokumentáció
--scribe
--swagger
--POSTMAN
