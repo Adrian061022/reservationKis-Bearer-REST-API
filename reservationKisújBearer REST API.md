@@ -167,6 +167,15 @@ Authorization: Bearer 5|vrKwcP2klx42uC4svjk8gDVKIPa2a74AALzxVzzn538f7ea2
 
 Ha a foglalás nem a userhez tartozik vagy nem admin → **403 Forbidden**.
 
+**Fejlécek:**
+
+```
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 5|vrKwcP2klx42uC4svjk8gDVKIPa2a74AALzxVzzn538f7ea2
+
+```
+
 **Válasz (siker):**
 
 ```json
@@ -201,8 +210,12 @@ Ha a foglalás nem a userhez tartozik vagy nem admin → **403 Forbidden**.
 
 **Fejlécek:**
 
-* Content-Type: application/json
-* Accept: application/json
+```
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 5|vrKwcP2klx42uC4svjk8gDVKIPa2a74AALzxVzzn538f7ea2
+
+```
 
 **Kérés (példa):**
 
@@ -239,6 +252,14 @@ Ha a foglalás nem a userhez tartozik vagy nem admin → **403 Forbidden**.
 
 Foglalás teljes módosítása
 
+**Fejlécek:**
+
+```
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 5|vrKwcP2klx42uC4svjk8gDVKIPa2a74AALzxVzzn538f7ea2
+
+```
 **Válasz:**
 
 ```json
@@ -256,6 +277,15 @@ Foglalás teljes módosítása
 ## PATCH /reservations/{id}
 
 **Foglalás részleges módosítása**
+
+**Fejlécek:**
+
+```
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 5|vrKwcP2klx42uC4svjk8gDVKIPa2a74AALzxVzzn538f7ea2
+
+```
 
 **Kérés (példa):**
 
@@ -284,6 +314,15 @@ Foglalás teljes módosítása
 **Foglalás törlése**
 
 User csak a sajátját törölheti.
+
+**Fejlécek:**
+
+```
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 5|vrKwcP2klx42uC4svjk8gDVKIPa2a74AALzxVzzn538f7ea2
+
+```
 
 **Válasz:**
 
