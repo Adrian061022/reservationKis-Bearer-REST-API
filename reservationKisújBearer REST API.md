@@ -84,7 +84,7 @@ Accept: application/json
 
 ```json
 {
-  "email": "sipnor@gmail.com",
+  "email": "maradr@gmail.com",
   "password": "Jelszo_2025"
 }
 ```
@@ -93,7 +93,7 @@ Accept: application/json
 
 ```json
 {
-  "access_token": "1|kcmV2i8n9xbQBoVY0LqQCvs4L5OvkK0pXf3UixEaa5bb606f",
+  "access_token": "1|5|vrKwcP2klx42uC4svjk8gDVKIPa2a74AALzxVzzn538f7ea2",
   "token_type": "Bearer"
 }
 ```
