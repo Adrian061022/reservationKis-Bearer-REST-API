@@ -1,4 +1,4 @@
-# reservationKisújBearer REST API megvalósítása Laravel környezetben
+# reservationKisújBearer REST API dokumentáció
 
 **base_url:** `http://127.0.0.1/reservationKisuj/public/api` vagy `http://127.0.0.1:8000/api`
 
@@ -7,7 +7,7 @@
 - Authentikáció (login, token kezelés).
 - Felhasználó foglalás.
 
-Az adatbázis neve: `reservationKisuj`
+Az adatbázis neve: `reservationKisujSanctumBearer`
 
 ## Végpontok:
 A `Content-Type` és az `Accept` headerkulcsok mindig `application/json` formátumúak legyenek.
@@ -238,7 +238,7 @@ Authorization: Bearer 5|vrKwcP2klx42uC4svjk8gDVKIPa2a74AALzxVzzn538f7ea2
     "email": "pista@gmail.com",
     "reservation_time": "2025-12-20 10:48:00",
     "guests": 5,
-    "note": "Depresszios vacsi",
+    "note": "vacsora",
     "created_at": "2025-11-26 10:52:17",
     "updated_at": "2025-11-26 10:52:17"
 }
